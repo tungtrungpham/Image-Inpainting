@@ -5,7 +5,7 @@ from PIL import Image
 from typing import Tuple
 
 
-def crop_for_fill_pred(
+def crop_for_fill_pre(
     image: np.array,
     mask: np.array,
     crop_size: int = 512):
